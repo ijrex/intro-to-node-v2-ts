@@ -1,6 +1,7 @@
 node_modules
 
 **/*.js
+!reddit-cli/reddit.js
 
 **/*.html
 !template.html

@@ -1,5 +1,5 @@
 {
-    "name": "intro-to-node-ts",
+    "name": "reddit-cli",
     "version": "1.0.0",
     "engines": {
         "node": ">v14.17.0"
@@ -9,17 +9,21 @@
     "type": "module",
     "scripts": {
         "exec": "NODE_NO_WARNINGS=1 node --loader ts-node/esm",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "install:reddit-cli": "cd reddit-cli && npm i",
-        "install-subdirs": "run-p install:*"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [],
+    "bin": {
+        "reddit": "./reddit.js"
+    },
     "author": "",
     "license": "ISC",
+    "dependencies": {
+        "node-fetch": "^3.2.0",
+        "open": "^8.4.0",
+        "yargs": "^17.3.1"
+    },
     "devDependencies": {
+        "@types/yargs": "^17.0.8",
         "@types/node": "^17.0.21",
-        "npm-run-all": "^4.1.5",
-        "ts-node": "^10.6.0",
         "typescript": "^4.6.2"
     }
 }
