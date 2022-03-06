@@ -1,0 +1,22 @@
+{
+    "name": "intro-to-node-ts",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">v14.17.0"
+    },
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "exec": "NODE_NO_WARNINGS=1 node --loader ts-node/esm",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^17.0.21",
+        "ts-node": "^10.6.0",
+        "typescript": "^4.6.2"
+    }
+}
