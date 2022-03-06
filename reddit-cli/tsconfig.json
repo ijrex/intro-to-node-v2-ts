@@ -5,6 +5,5 @@
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
         "noImplicitAny": true
-    },
-    "exclude": ["reddit-cli"]
+    }
 }
