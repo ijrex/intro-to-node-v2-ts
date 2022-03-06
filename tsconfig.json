@@ -6,5 +6,5 @@
         "allowSyntheticDefaultImports": true,
         "noImplicitAny": true
     },
-    "exclude": ["reddit-cli"]
+    "exclude": ["reddit-cli", "server"]
 }
